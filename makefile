@@ -13,3 +13,6 @@ build:
 	@docker build \
 		-t $(IMG)	.
 	@docker tag $(IMG)	$(LATEST)
+
+run:
+	@docker run -it -p 8888:8888 $(NAME) jupyter lab --allow-root --port=8888 --ip=0.0.0.0
