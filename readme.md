@@ -35,7 +35,7 @@ Huggingface has made many models available for free online. While I considered u
 
 I used `meta-llama/Meta-Llama-3.1-8B-Instruct`, which was optimized for dialogue use cases and outperforms many other available open source models. I chose 8B due to its size, based on my constraints. Read more about it here: https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct.
 
-I have also decided to use LoRA (Low-Rank Adaption) because it uses less computational resources than other methods, while still working well for low complexity tasks. You can read more about my training approach in `Part2-MedChatbot_Run_Evaluate.ipynb`.
+I have also decided to use LoRA (Low-Rank Adaption) because it uses less computational resources than other methods, while still working well for low complexity tasks. You can read more about my training approach in `Part2-MedChatbot-Train.ipynb`.
 
 I trained the model for 3 epochs, with a small learning rate, and the model continuted to improve over the course of its training.
 
@@ -60,6 +60,8 @@ Unfortuntely, our eval entropy is a bit high. This means our model is mot very c
 Looking an individual text cases, our model is fairly good at answering medical questions with what appears to be correct information. Some of the output formatting contains a bit more context than I would like, but I think that could be improved with additional prompting.
 
 The biggest weakness of the model is its hallucination: I asked about a "disease" that I made up, and it still attempted to tell me about this disease.
+
+See `Part3-MedChatbot-Run-Evaluate.ipynb` for more details.
 
 5. Potential improvements
 
