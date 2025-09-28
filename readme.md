@@ -55,7 +55,7 @@ Our final evaluation statistics were as follows:
 
 Our mean token accuracy of 0.78 is fairly good. We are correclt predicting 78% of our sequencial tokens correctly. I must note, however, that this is not representative of the quality of the outputs. In a future attempt, I will use BLEU or ROUGE metrics to get a better sense for my output quality.
 
-Unfortuntely, our eval entropy is a bit high. This means our model is mot very confident in its answers. This may be alright, given that generative tasks are non-deterministic and there could be a variety of correct answers.
+Unfortuntely, our eval entropy is a bit high. This means our model is not very confident in its answers. This may be alright, given that generative tasks are non-deterministic and there could be a variety of correct answers.
 
 Looking an individual text cases, our model is fairly good at answering medical questions with what appears to be correct information. Some of the output formatting contains a bit more context than I would like, but I think that could be improved with additional prompting.
 
