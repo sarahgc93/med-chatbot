@@ -8,4 +8,4 @@ COPY ./requirements.txt ./
 RUN pip install -r requirements.txt
 
 COPY ./data ./data
-COPY med-chatbot.ipynb .
+COPY Part1-MedChatBot-Prep.ipynb .
