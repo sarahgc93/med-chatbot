@@ -65,7 +65,7 @@ See `Part3-MedChatbot-Run-Evaluate.ipynb` for more details.
 
 5. Potential improvements
 
-Given more time and resources, I would like to try out different Llama models and compare them against eachother. I would also conduct some hyperparameter tuning-- I am not confident that I chose the optimal batch size or learning rate. I'd also trainfor more epochs. I'd ideally train until the model plateaus.
+Given more time and resources, I would like to try out different Llama models and compare them against eachother. I would also conduct some hyperparameter tuning-- I am not confident that I chose the optimal batch size or learning rate. I'd also trainfor more epochs. I'd ideally train until the model plateaus. Depending on results, I may also look for additional medical data I can use to suplement our training.
 
 In the future, I will expand my evaluation to include more complex metrics that better capture output quality. I will also try out an LLM as a judge.
 
